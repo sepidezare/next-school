@@ -144,6 +144,128 @@ const RussianOnlineSchool = () => {
           </div>
         </div>
       </section>
+      {/* Interactive Learning Section */}
+<section className="py-16 bg-gradient-to-br from-[#edf7e7] to-white">
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-[#073e4a] mb-4">Интерактивный подход к обучению</h2>
+      <p className="text-xl text-[#19232d] max-w-3xl mx-auto">
+        Наша платформа сочетает современные технологии с проверенными методиками преподавания
+      </p>
+    </div>
+    
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      {/* Left side - Features */}
+      <div className="space-y-8">
+        <div className="flex items-start">
+          <div className="bg-[#01a08e] p-3 rounded-full mr-4 flex-shrink-0">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-[#073e4a] mb-2">Умная платформа</h3>
+            <p className="text-[#19232d]">
+              AI-ассистент анализирует ваш прогресс и адаптирует программу под ваши потребности
+            </p>
+          </div>
+        </div>
+        
+        <div className="flex items-start">
+          <div className="bg-[#2dffe6] p-3 rounded-full mr-4 flex-shrink-0">
+            <svg className="w-6 h-6 text-[#073e4a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path>
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-[#073e4a] mb-2">Видео-уроки</h3>
+            <p className="text-[#19232d]">
+              Более 500 часов видео материалов с носителями языка и профессиональными преподавателями
+            </p>
+          </div>
+        </div>
+        
+        <div className="flex items-start">
+          <div className="bg-[#01a08e] p-3 rounded-full mr-4 flex-shrink-0">
+            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-[#073e4a] mb-2">Живое общение</h3>
+            <p className="text-[#19232d]">
+              Разговорные клубы и групповые дискуссии с носителями языка из разных регионов России
+            </p>
+          </div>
+        </div>
+        
+        <div className="flex items-start">
+          <div className="bg-[#2dffe6] p-3 rounded-full mr-4 flex-shrink-0">
+            <svg className="w-6 h-6 text-[#073e4a]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+            </svg>
+          </div>
+          <div>
+            <h3 className="text-xl font-bold text-[#073e4a] mb-2">Гарантия результата</h3>
+            <p className="text-[#19232d]">
+              98% студентов достигают своих целей благодаря индивидуальному подходу и постоянной поддержке
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      {/* Right side - Interactive Card */}
+      <div className="relative">
+        <div className="bg-white rounded-2xl shadow-2xl p-8 border border-[#2dffe6]/30">
+          <h3 className="text-2xl font-bold text-[#073e4a] mb-6 text-center">Попробуйте наш тренажер</h3>
+          
+          <div className="bg-gradient-to-r from-[#01a08e] to-[#2dffe6] p-0.5 rounded-lg mb-6">
+            <div className="bg-white rounded-lg p-4">
+              <p className="text-[#19232d] font-medium mb-3">Переведите на русский:</p>
+              <p className="text-lg text-[#073e4a] font-bold mb-4">"I would like to learn Russian"</p>
+              
+              <div className="space-y-3">
+                <div className="flex items-center p-3 rounded-lg border border-gray-200 hover:border-[#01a08e] cursor-pointer transition-colors">
+                  <div className="w-6 h-6 rounded-full border border-gray-300 mr-3 flex items-center justify-center">
+                    <div className="w-3 h-3 rounded-full bg-[#01a08e] hidden"></div>
+                  </div>
+                  <span>Я хотел бы учить русский язык</span>
+                </div>
+                
+                <div className="flex items-center p-3 rounded-lg border border-gray-200 hover:border-[#01a08e] cursor-pointer transition-colors">
+                  <div className="w-6 h-6 rounded-full border border-gray-300 mr-3 flex items-center justify-center">
+                    <div className="w-3 h-3 rounded-full bg-[#01a08e] hidden"></div>
+                  </div>
+                  <span>Мне нравится русский язык</span>
+                </div>
+                
+                <div className="flex items-center p-3 rounded-lg border border-gray-200 hover:border-[#01a08e] cursor-pointer transition-colors">
+                  <div className="w-6 h-6 rounded-full border border-gray-300 mr-3 flex items-center justify-center">
+                    <div className="w-3 h-3 rounded-full bg-[#01a08e] hidden"></div>
+                  </div>
+                  <span>Я изучаю русский язык</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <button className="w-full bg-gradient-to-r from-[#01a08e] to-[#2dffe6] text-white py-3 rounded-lg font-bold hover:from-[#018f7d] hover:to-[#25e6d0] transition-all transform hover:scale-105">
+            Проверить ответ
+          </button>
+          
+          <p className="text-center text-sm text-gray-500 mt-4">
+            Это лишь маленький пример того, как проходит обучение на нашей платформе
+          </p>
+        </div>
+        
+        {/* Decorative elements */}
+        <div className="absolute -top-4 -right-4 w-8 h-8 bg-[#2dffe6] rounded-full opacity-70"></div>
+        <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-[#01a08e] rounded-full opacity-70"></div>
+      </div>
+    </div>
+  </div>
+</section>
 {/* Testimonials Section */}
 <section className="py-16 bg-gradient-to-b from-[#0a2d36] to-[#073e4a]">
   <div className="container mx-auto px-4">
@@ -412,6 +534,165 @@ const RussianOnlineSchool = () => {
       </p>
     </div>
   </div>
+  {/* Cultural Immersion Section */}
+<section className="py-16 bg-white">
+  <div className="container mx-auto px-4">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-[#073e4a] mb-4">Погружение в русскую культуру</h2>
+      <p className="text-xl text-[#19232d] max-w-3xl mx-auto">
+        Изучайте язык через культуру, традиции и реальные жизненные ситуации
+      </p>
+    </div>
+    
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+      {/* Cultural Card 1 */}
+      <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+        <div className="h-48 bg-gradient-to-br from-[#01a08e] to-[#2dffe6] relative overflow-hidden">
+          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute bottom-4 left-4 text-white">
+            <h3 className="text-xl font-bold">Русская кухня</h3>
+            <p className="text-sm opacity-90">Кулинарные мастер-классы</p>
+          </div>
+        </div>
+        <div className="p-6 bg-white">
+          <p className="text-[#19232d]">
+            Изучайте язык через приготовление традиционных блюд и узнавайте о кулинарных традициях
+          </p>
+          <button className="mt-4 text-[#01a08e] font-medium hover:text-[#2dffe6] transition-colors flex items-center">
+            Узнать больше
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+      {/* Cultural Card 2 */}
+      <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+        <div className="h-48 bg-gradient-to-br from-[#073e4a] to-[#19232d] relative overflow-hidden">
+          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute bottom-4 left-4 text-white">
+            <h3 className="text-xl font-bold">Литература</h3>
+            <p className="text-sm opacity-90">Книжный клуб</p>
+          </div>
+        </div>
+        <div className="p-6 bg-white">
+          <p className="text-[#19232d]">
+            Читайте и обсуждайте произведения русских классиков в оригинале с преподавателями
+          </p>
+          <button className="mt-4 text-[#01a08e] font-medium hover:text-[#2dffe6] transition-colors flex items-center">
+            Узнать больше
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+      {/* Cultural Card 3 */}
+      <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+        <div className="h-48 bg-gradient-to-br from-[#2dffe6] to-[#01a08e] relative overflow-hidden">
+          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute bottom-4 left-4 text-white">
+            <h3 className="text-xl font-bold">Киновечера</h3>
+            <p className="text-sm opacity-90">Просмотры и обсуждения</p>
+          </div>
+        </div>
+        <div className="p-6 bg-white">
+          <p className="text-[#19232d]">
+            Смотрите российские фильмы с субтитрами и обсуждайте их с носителями языка
+          </p>
+          <button className="mt-4 text-[#01a08e] font-medium hover:text-[#2dffe6] transition-colors flex items-center">
+            Узнать больше
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+      {/* Cultural Card 4 */}
+      <div className="group relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500">
+        <div className="h-48 bg-gradient-to-br from-[#19232d] to-[#073e4a] relative overflow-hidden">
+          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute bottom-4 left-4 text-white">
+            <h3 className="text-xl font-bold">Праздники</h3>
+            <p className="text-sm opacity-90">Традиции и обычаи</p>
+          </div>
+        </div>
+        <div className="p-6 bg-white">
+          <p className="text-[#19232d]">
+            Узнавайте о русских праздниках и участвуйте в виртуальных праздничных мероприятиях
+          </p>
+          <button className="mt-4 text-[#01a08e] font-medium hover:text-[#2dffe6] transition-colors flex items-center">
+            Узнать больше
+            <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div className="bg-gradient-to-r from-[#edf7e7] to-[#f0f9ff] rounded-2xl p-8 border border-[#2dffe6]/30">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div>
+          <h3 className="text-2xl font-bold text-[#073e4a] mb-4">Виртуальные экскурсии по России</h3>
+          <p className="text-[#19232d] mb-6">
+            Совершите путешествие по знаковым местам России не выходя из дома. 
+            Наши виртуальные туры помогут вам погрузиться в языковую среду и узнать больше о культуре страны.
+          </p>
+          <ul className="space-y-2 mb-6">
+            <li className="flex items-center">
+              <svg className="w-5 h-5 text-[#01a08e] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>Москва и Санкт-Петербург в 360°</span>
+            </li>
+            <li className="flex items-center">
+              <svg className="w-5 h-5 text-[#01a08e] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>Золотое кольцо России</span>
+            </li>
+            <li className="flex items-center">
+              <svg className="w-5 h-5 text-[#01a08e] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>Сибирь и Дальний Восток</span>
+            </li>
+          </ul>
+          <button className="bg-[#01a08e] hover:bg-[#2dffe6] text-white px-6 py-3 rounded-full font-medium transition-colors">
+            Записаться на экскурсию
+          </button>
+        </div>
+        
+        <div className="relative">
+          <div className="bg-white p-6 rounded-xl shadow-lg border border-[#2dffe6]/20">
+            <div className="flex space-x-2 mb-4">
+              <div className="w-3 h-3 bg-red-400 rounded-full"></div>
+              <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
+              <div className="w-3 h-3 bg-green-400 rounded-full"></div>
+            </div>
+            <div className="bg-gradient-to-br from-[#073e4a] to-[#19232d] h-48 rounded-lg flex items-center justify-center">
+              <div className="text-center text-white">
+                <svg className="w-12 h-12 mx-auto mb-2 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
+                </svg>
+                <p className="text-lg font-medium">Виртуальный тур</p>
+                <p className="text-sm opacity-80">Красная площадь, Москва</p>
+              </div>
+            </div>
+          </div>
+          
+          {/* Decorative elements */}
+          <div className="absolute -top-2 -right-2 w-4 h-4 bg-[#2dffe6] rounded-full"></div>
+          <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-[#01a08e] rounded-full opacity-50"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </section>
       {/* Footer */}
       <footer className="bg-[#0a2329] py-8 border-t border-[#2dffe6]/20">
