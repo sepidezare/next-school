@@ -44,6 +44,7 @@ export default function CTA() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
+    
     <div className="text-center pt-6 pb-20 lg:mt-16 mt-10 md:px-10 px-6">
       <div className="bg-gradient-to-r from-[#edf7e7] to-[#edf7e7]/50 rounded-3xl p-12 border border-[#01a08e]/10 max-w-4xl mx-auto">
         <h2 className="md:text-3xl text-xl font-semibold text-[#19232d] mb-4">

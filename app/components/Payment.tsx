@@ -8,10 +8,10 @@ const ModernCTACard = () => {
   <div className="w-full h-full bg-gradient-to-br from-[#073e4a] via-[#1F2D3D] to-[#01a08e] opacity-90 rounded-3xl shadow-2xl overflow-hidden">
         
         {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-5">
+        {/* <div className="absolute inset-0 opacity-5">
           <div className="absolute top-0 right-0 w-72 h-72 bg-[#2dffe6] rounded-full -translate-y-36 translate-x-36"></div>
           <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#01a08e] rounded-full translate-y-48 -translate-x-48"></div>
-        </div>
+        </div> */}
 
         {/* Content Grid */}
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-8 p-8 lg:p-12">

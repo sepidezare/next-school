@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import { Play, ArrowRight, CheckCircle, Users, Video, Mail, Phone, MapPin, Component } from "lucide-react";
 import VideoSection from "./components/VideoSection";
 import Hero2 from "./components/Hero2";
-import Video_white from "./components/VideoSection_white";
-import VideoSection_white from "./components/VideoSection_white";
 import Fields from "./components/Fields";
 import FindWay from "./components/FindWay";
 import Payment from "./components/Payment";
@@ -107,18 +105,19 @@ const RussianOnlineSchool: React.FC = () => {
   const t = translations[language];
 
   return (    
+    
     <div>
-    <div className="relative px-0 mx-0">
+    <div className="relative px-0 mx-0 ">
       
-  <div className="absolute inset-0">
+  {/* <div className="absolute inset-0 z-0">
     <img 
       src="/images/h2.jpg" 
       alt="Overlay" 
       className="w-full h-full object-cover opacity-5" 
     />
-  </div> 
+  </div>  */}
   
-      <div className="bg-gradient-to-br from-[#073e4a] to-[#19232d] text-white font-sans lg:px-20 px-3">
+      <div className="bg-gradient-to-br from-[#073e4a] to-[#19232d] text-white lg:px-20 px-3">
         {/* Header */}
         <header className="w-full z-50 backdrop-blur-sm md:px-2 px-3 items-center">
           <div className="flex container mx-auto flex justify-between items-center">
@@ -166,17 +165,18 @@ const RussianOnlineSchool: React.FC = () => {
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden lg:flex space-x-6 xl:space-x-8">
-              <a href="#courses" className="hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
+            <nav className="z-10 hidden lg:flex space-x-6 xl:space-x-8">
+              
+              <a href="#courses" className="cursor-pointer hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
                 {t.courses}
               </a>
-              <a href="#teachers" className="hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
+              <a href="#teachers" className="cursor-pointer hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
                 {t.teachers}
               </a>
-              <a href="#about" className="hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
+              <a href="#about" className="cursor-pointer hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
                 {t.about}
               </a>
-              <a href="#contact" className="hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
+              <a href="#contact" className="cursor-pointer hover:text-[#2dffe6] transition-colors duration-300 text-sm xl:text-base">
                 {t.contact}
               </a>
             </nav>
@@ -192,7 +192,7 @@ const RussianOnlineSchool: React.FC = () => {
                 <button
                   onClick={() => handleLanguageChange("ru")}
                   className={`cursor-pointer px-2 py-2 rounded-full transition-all duration-300 text-xs ${
-                    language === "ru" ? "bg-[#01a08e] text-white" : "text-white/70"
+                    language === "ru" ? "bg-[#01a08e] text-white" : "text-white/70 cursor-pointer"
                   }`}
                 >
                   RU
@@ -200,7 +200,7 @@ const RussianOnlineSchool: React.FC = () => {
                 <button
                   onClick={() => handleLanguageChange("en")}
                   className={`px-2 py-2 rounded-full transition-all duration-300 text-xs ${
-                    language === "en" ? "bg-[#01a08e] text-white" : "text-white/70"
+                    language === "en" ? "bg-[#01a08e] text-white" : "text-white/70 cursor-pointer"
                   }`}
                 >
                   EN
@@ -266,13 +266,13 @@ const RussianOnlineSchool: React.FC = () => {
         </header>
 
         {/* Hero & Features Section */}
-<section className="relative lg:pb-10 md:pb-35 pb-20 pt-10 lg:pt-25 lg:pb-50 md:pt-10 md:pb-10 flex flex-col lg:flex-row items-center justify-center lg:gap-[0.1vw]">
+        <section className="relative lg:pb-10 md:pb-35 pb-20 pt-10 lg:pt-25 lg:pb-50 md:pt-10 md:pb-10 flex flex-col lg:flex-row items-center justify-center lg:gap-[0.1vw]">
 
           {/* Hero Content */}
           <div className="lg:px-0 w-full mb-8 lg:mb-0 text-center lg:text-left">
-            <h1 className="lg:text-[clamp(1.5rem,3.4vw,3.6rem)] text-[1.5rem] font-bold mb-6 leading-tight sm:leading-snug">
+            <h1 className="lg:text-[clamp(1.4rem,3.4vw,3.5rem)] text-[1.5rem] font-extrabold mb-6 leading-tight sm:leading-snug">
               {t.heroTitle}
-              <span className="text-[#2dffe6] font-extrabold lg:text-[clamp(1.5rem,3.4vw,3.6rem)] text-[1.5rem]">
+              <span className="text-[#2dffe6] font-extrabold lg:text-[clamp(1.4rem,3.4vw,3.5rem)] text-[1.5rem]">
                {" "} {t.heroHighlight}
               </span>{" "}
               {t.heroSubtitle}

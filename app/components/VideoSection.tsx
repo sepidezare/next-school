@@ -65,7 +65,10 @@ export default function VideoSection({
   const vimeoUrl = `https://player.vimeo.com/video/${vimeoVideoId}?color=ffffff&badge=0&title=0&byline=0&portrait=0&autoplay=1`;
 
   return (
-<section className="relative text-white overflow-hidden lg:py-20 py-5 lg:px-30 px-3">    {/* Background decorative elements */}
+    
+<section className="relative text-white overflow-hidden lg:py-20 py-5 lg:px-30 px-3">
+  <a className="text-black hover:text-red-500">Test Link</a>
+
     <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-[#01a08e]/10 to-[#2dffe6]/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
     <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-br from-[#19232d]/5 to-[#01a08e]/10 rounded-full blur-3xl translate-x-1/3 translate-y-1/3"></div>
     
