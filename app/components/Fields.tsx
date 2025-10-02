@@ -1,13 +1,58 @@
 import React from 'react';
 import styled from 'styled-components';
-import {
-  ManagementIcon,
-  JurisprudenceIcon,
-  EconomicsIcon,
-  PublicAdministrationIcon,
-  PsychologyIcon,
-  BusinessInformaticsIcon
-} from './icons.jsx';
+
+const ManagementIcon = () => (
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+    <path d="M12 15L7 12V18L12 21L17 18V12L12 15Z" fill="#01a08e"/>
+    <path d="M12 3L3 8L12 13L21 8L12 3Z" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M12 13V21" stroke="#073e4a" strokeWidth="2"/>
+  </svg>
+  
+);
+const JurisprudenceIcon = () => (
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+    <path d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M8 7H16" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 11H16" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 15H12" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+  </svg>
+);
+const EconomicsIcon = () => (
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+    <path d="M4 4H20V16H4V4Z" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M8 20H16" stroke="#073e4a" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M12 16V20" stroke="#073e4a" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 8H16" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 12H12" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+  </svg>
+);
+const PublicAdministrationIcon = () => 
+(
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+    <path d="M8 2V6" stroke="#073e4a" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M16 2V6" stroke="#073e4a" strokeWidth="2" strokeLinecap="round"/>
+    <rect x="3" y="4" width="18" height="18" rx="2" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M8 12H16" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 16H12" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+  </svg>
+);
+const PsychologyIcon = () =>(
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+    <rect x="3" y="3" width="18" height="18" rx="2" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M7 17V13" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M12 17V9" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M17 17V7" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+  </svg>
+);
+const BusinessInformaticsIcon = () => (
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="none">
+    <path d="M12 2L20 7V17L12 22L4 17V7L12 2Z" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M12 6V18" stroke="#073e4a" strokeWidth="2"/>
+    <path d="M8 9H16" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M8 13H14" stroke="#01a08e" strokeWidth="2" strokeLinecap="round"/>
+  </svg>
+);
+
 const directions = [
   {
     id: 1,
