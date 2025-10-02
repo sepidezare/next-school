@@ -111,15 +111,15 @@ const RussianOnlineSchool: React.FC = () => {
       
   {/* <div className="absolute inset-0 z-0">
     <img 
-      src="/images/h2.jpg" 
+      src="/images/h.jpg" 
       alt="Overlay" 
-      className="w-full h-full object-cover opacity-5" 
+      className="w-full h-full object-cover opacity-8" 
     />
   </div>  */}
   
       <div className="bg-gradient-to-br from-[#073e4a] to-[#19232d] text-white lg:px-20 px-3">
         {/* Header */}
-        <header className="w-full z-50 backdrop-blur-sm md:px-2 px-3 items-center">
+        <header className="w-full z-50  md:px-2 px-3 items-center">
           <div className="flex container mx-auto flex justify-between items-center">
             
             <div className="flex items-center space-x-2">
