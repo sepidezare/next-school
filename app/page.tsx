@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import { Play, ArrowRight, CheckCircle, Users, Video, Mail, Phone, MapPin, Component } from "lucide-react";
 import VideoSection from "./components/VideoSection";
 import Hero2 from "./components/Hero2";
-import Video_white from "./components/VideoSection_white";
-import VideoSection_white from "./components/VideoSection_white";
 import Fields from "./components/Fields";
 import FindWay from "./components/FindWay";
 import Payment from "./components/Payment";
