@@ -112,7 +112,7 @@ const RussianOnlineSchool: React.FC = () => {
     <img 
       src="/images/h.jpg" 
       alt="Overlay" 
-      className="w-full h-full object-cover opacity-5" 
+      className="w-full h-full object-cover opacity-8" 
     />
   </div> 
   
